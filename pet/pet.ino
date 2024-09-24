@@ -11,7 +11,7 @@ int pos = 0;    // variable to store the servo position
  
 void setup() 
 { 
-  myservo.attach(9);  // attaches the servo on pin 9 to the servo object 
+  myservo.attach(10);  // attaches the tail actuator servo on pin 10
 } 
  
 void loop() 
